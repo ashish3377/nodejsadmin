@@ -4,6 +4,7 @@ var mysql = require("mysql");
 var qs = require('querystring');
 var nodemailer = require('nodemailer');
 var formidable = require('formidable');
+var test = "helllololo";
 
 var con = mysql.createConnection({
   host: "localhost",
